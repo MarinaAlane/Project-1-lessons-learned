@@ -1,6 +1,6 @@
 # Project-1-lessons-learned :pushpin:	
 
-Project made with the learning of the first two weeks of Trybe's course. Was used:
+Project made with the learning of the first two weeks of Trybe's course. Technologies:
 * Git
 * Semantic HTML
 * CSS3
