@@ -5,6 +5,8 @@ Project made with the learning of the first two weeks of Trybe's course. Technol
 * Semantic HTML
 * CSS3
 
+![Project 1](https://j.gifs.com/pZgqNX.gif)
+
 <h4>Project is being refactored. :computer:	
 
 ## Requirements:
