@@ -1,74 +1,97 @@
 * {
   margin: 0;
+  padding: 0;
+  line-height: 200%;
 }
 
 body {
-  background-color: rgb(253 , 251 , 251);
-  font-weight: 400;
-  line-height: 30px;
-  font-family: Georgia, serif;
+  background-color: rgb(253, 251, 251);
+  font-family: Quicksand, sans-serif;
+  color: rgb(78, 77, 77);
+}
+
+table {
+  width: 100%;
+}
+
+aside {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+th {
+  background-color: rgb(47, 101, 218);
+  color: rgb(250, 244, 244);
+  padding: 10px 15px 10px 35px;
+}
+
+td {
+  background-color: rgb(238, 241, 234);
+  padding: 10px 15px 10px 35px;
+}
+
+header {
+  background-color: rgb(47, 101, 218);
+  color: rgb(238, 241, 234);
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 h1 {
-  margin: 20px;
-  text-align: center
-}
-
-#cabecalho {
-  position: fixed;
-  top: 0;
-  background-color: rgb(24 , 84 , 153);
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
-#minha_foto {
-  width: 160px;
-  border-radius: 50%;
+  font-weight: 500;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 20px;
 }
 
-#licoes_aprendidas {
-  margin: 100px;
+h3 {
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 
-#licoes_a_aprender {
-  margin-top: 10px;
+nav {
+  font-weight: 700;
+  padding-left: 20px;
 }
 
-.lado-direito {
-  float: right;
-  width: 20%;
-  text-align: justify;
-  margin-right: 40px;
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
 }
-
 
 .lado-esquerdo {
-  float:left;
-  width: 40%;
-  margin-left: 40px;
+  width: 60%;
+  margin: 40px 10px 15px 45px;
+  display: inline-block;
   text-align: justify;
+  padding: 10px 5px 5px 10px;
+  border-style: outset;
 }
 
-a{
-  text-decoration: none;
+.lado-direito { 
+  width: 26.5%;
+  display: inline-block;
+  text-align: justify;
+  border-style: outset;
+  line-height: 150%;
 }
 
-#tabela {
-  border: 2px solid grey;
-  margin: auto;
-  font-size: 16px;
-  width: 350px;
+
+#minha_foto {
+  width: 100px;
   height: 100px;
-  display: flex;
-  align-items: center;
+  border-radius: 20%;
 }
 
-footer {
-  background-color: rgb(24 , 84 , 153);
-  padding: 20px;
-  color: antiquewhite;
+#rodape {
+  color: rgb(143, 142, 142);
+  font-style: italic;
+  font-size: 15px;
+  padding: 13px 5px 5px 20px;
+}
+#titulo {
+  text-align: center;
 }
